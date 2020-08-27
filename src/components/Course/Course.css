@@ -1,0 +1,44 @@
+.course{
+    display: flex;
+    background-color: lightsteelblue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px lightgrey;
+    transition: box-shadow 1s;
+    
+}
+.course:hover{
+    box-shadow: 2px 2px 30px black;
+}
+.course-title{
+    color: #333333;
+    
+}
+.course-img{
+    text-align: center;
+    padding: 5px;
+}
+.course-img img{
+    width: 100%;
+}
+.enroll-btn{
+    background-color:#0b79c3 ;
+   width: 100px;
+   height: 30px;
+   border: 1px solid #333333;
+   border-radius: 10px;
+   color: white;
+   font-weight: 700;
+   transition: box-shadow .5s;
+   cursor: pointer;
+}
+.enroll-btn:hover{
+    width: 110px;
+    box-shadow: 2px 2px 20px black;
+}
+.course-details{
+    margin-left: 10px;
+}

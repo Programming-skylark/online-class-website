@@ -1,0 +1,16 @@
+.purchage-container{
+    display: flex;
+}
+.course-container{
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 5px;
+
+}
+.inventory-container{
+    
+    float: right;
+    width: 20%;
+    margin-right: 50px;
+}
+
